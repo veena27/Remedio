@@ -1,0 +1,253 @@
+<br>
+<div class="container">
+    <div class="input-group input-group-lg">
+        <input type="text" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+            <button class="btn btn-default btn-lg dropdown-toggle" type="button">Go!</button>
+        </span>
+    </div><!-- /input-group -->
+</div>
+
+<div class="container">
+    <br>
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-primary" routerLink="/allopathy">Allopathy</button>
+    </div>&nbsp;
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-success" routerLink="/ayurvedic">Ayurvedic</button>
+    </div>&nbsp;
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-info" routerLink="/bodycare">Body Care</button>
+    </div>&nbsp;
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-warning" routerLink="/elderycare">Eldery Care</button>
+    </div>&nbsp;
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-danger" routerLink="/haircare">Hair Care</button>
+    </div>&nbsp;
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-primary" routerLink="/homeopathy">Homeopathy</button>
+    </div>&nbsp;
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-success" routerLink="/mothercare">Mother Care</button>
+    </div>&nbsp;
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-info" routerLink="/skincare">Skin Care</button>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <button class="btn btn-primary">A</button>
+                <img src="http://4.imimg.com/data4/CA/RE/GLADMIN-2/acetaminophen-500x500.png" width="200px"
+                    height="200px">
+                <div class="caption">
+                    <h3>Acetaminophen</h3>
+                    <p>₹123</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <!-- <button class="btn btn-primary">Add to cart</button> -->
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <button class="btn btn-primary">C</button>
+                <img src="https://upload.wikimedia.org/wikipedia/de/7/7a/Citalopram_stada_20mg_schachtel.jpg"
+                    width="200px" height="200px">
+                <div class="caption">
+                    <h3>Citalopram</h3>
+                    <p>₹345</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button> &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <img src="http://pharmaplus.ph/wp-content/uploads/2018/11/Clindamycin-CLINDAGOLD-Capsule-2.jpg"
+                    width="200px" height="200px">
+                <div class="caption">
+                    <h3>Clindamycin</h3>
+                    <p>₹456</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button> &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <button class="btn btn-primary">D</button>
+                <img src="https://onlinedoctor.lloydspharmacy.com/image/42280/large4x3/400/300/77579f0176d0a2f7da8573170eae82ff/PS/doxycycline-chlamydia-treatment.jpg"
+                    width="200px" height="200px">
+                <div class="caption">
+                    <h3>Doxycycline</h3>
+                    <p>₹567</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button> &nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <button class="btn btn-primary">G</button>
+                <img src="https://thedrugclassroom.com/wp-content/uploads/2016/07/Gabapentin1.jpg" width="200px"
+                    height="200px">
+                <div class="caption">
+                    <h3>Gabapentin</h3>
+                    <p>₹345</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button> &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <button class="btn btn-primary">L</button>
+                <img src="https://www.sciencesource.com/Doc/TR1_WATERMARKED/f/9/c/2/SS2494907.jpg?d63642442388"
+                    width="200px" height="200px">
+                <div class="caption">
+                    <h3>Lexapro</h3>
+                    <p>₹234</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button> &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <button class="btn btn-primary">N</button>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61O%2BY9b%2BLgL._SY355_.jpg" width="200px"
+                    height="200px">
+                <div class="caption">
+                    <h3>Naproxen</h3>
+                    <p>₹567</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button> &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <button class="btn btn-primary">O</button>
+                <img src="https://www.addictioncampuses.com/wp-content/uploads/2017/08/Oxycodone-Addiction-and-Treatment.jpg"
+                    width="200px" height="200px">
+                <div class="caption">
+                    <h3>Oxycodone</h3>
+                    <p>₹123</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button> &nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61XUgSde2pL._SY355_.jpg" width="200px"
+                    height="200px">
+                <div class="caption">
+                    <h3>Omeprazole</h3>
+                    <p>₹142</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button> &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="thumbnail">
+                <button class="btn btn-primary">P</button>
+                <img src="https://www.postmymeds.co.uk/wp-content/uploads/2017/12/Pantoprazole-20mg-Tablets.jpg"
+                    width="200px" height="200px">
+                <div class="caption">
+                    <h3>Pantoprazole</h3>
+                    <p>₹123</p>
+                    <div class="col-xs-6">
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button [routerLink]="['/cart']" class="btn btn-primary">Add to Cart</button> &nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
